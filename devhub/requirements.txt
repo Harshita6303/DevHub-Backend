@@ -1,0 +1,46 @@
+# Core backend
+Django==5.2.1
+djangorestframework==3.16.0
+django-cors-headers==4.7.0
+gunicorn==23.0.0
+python-dotenv==1.1.1
+psycopg2-binary==2.9.10
+
+# Flask support (if used in submodules)
+Flask==3.0.3
+itsdangerous==2.2.0
+Werkzeug==3.0.4
+Jinja2==3.1.4
+click==8.1.7
+botocore
+boto3
+workos==5.23.0
+
+
+
+# JSON, API, utils
+requests==2.32.3
+PyYAML==6.0.2
+python-json-logger==3.3.0
+
+# Swagger docs
+drf-yasg==1.21.10
+swagger_ui_bundle==1.1.0
+
+
+
+# Misc (keep small)
+Pygments==2.18.0
+tabulate==0.9.0
+python-dateutil==2.9.0.post0
+typing_extensions==4.12.2
+certifi==2024.8.30
+charset-normalizer==3.3.2
+urllib3==2.2.3
+idna==3.10
+
+# Dev tools (optional for local)
+# mypy==1.16.1
+# django-stubs==5.2.1
+# ruff==0.12.1
+# Faker==37.3.0
